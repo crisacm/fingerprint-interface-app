@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="6dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            tools:ignore="ContentDescription" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/text_bytes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>
